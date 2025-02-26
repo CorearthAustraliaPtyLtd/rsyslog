@@ -100,3 +100,4 @@ tools/logctl
 tools/rscryutil
 tools/rscryutil.1
 /bin/
+/ubuntu/dist/
