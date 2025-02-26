@@ -91,6 +91,14 @@ For KSI, from the Adiscon PPA:
 sudo apt-get install libksi0 libksi-devel
 ```
 
+#####  Custom Ubuntu Package
+
+To build a custom Ubuntu package based on the latest Git sources:
+
+	./ubuntu/build-package.sh
+	
+This will create a .deb file under `ubuntu/dist` which you can install via `dpkg -i ./rsyslog_xxx.deb`
+
 #### Debian
 
 ```
